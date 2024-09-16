@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "brokerchooser-assignment"
+version = "0.1.0"
+description = "Files related to the brokerchooser webapp."
+authors = ["Lori <zs.lorant@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+streamlit = "^1.38"
+langchain = "~0.2"
+langchain-core = "~0.2"
+langchain-openai = "~0.1"
+python-dotenv = "~1.0"
+prometheus-client = "~0.20"
+streamlit-extras = "~0.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
