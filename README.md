@@ -1,4 +1,4 @@
-# BrokerChooser Translation Chatbot (assignment)
+# TanslaBot Translation Chatbot (assignment)
 
 This python application is a translation tool that uses Streamlit for the frontend and LangChain framework for the translation functionality. It allows users to translate text from English to multiple languages. The application also includes monitoring capabilities using Prometheus to track translation response times.
 
